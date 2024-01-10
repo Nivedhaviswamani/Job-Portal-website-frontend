@@ -1,0 +1,159 @@
+.jobName
+{
+    
+    color:white;
+    display:inline;
+    position:absolute;
+    top:10px;
+    left:150px;
+    font-size:2.5rem;
+    font-family:fantasy;
+    font-weight:normal;
+    
+}
+header{
+    background-color:dodgerblue;
+    color:white;
+    height:130px;
+    text-align:left;
+  
+}
+.des{
+    font-size:12px;
+    position:absolute;
+    top:90px;
+    left:150px;
+    
+}
+header img{
+    float:left;
+    padding:10px;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+}
+
+header a{
+   border-radius:25px;
+    padding:10px;
+    font-size:16px;
+}
+header a:link{
+    text-decoration:none;
+    color:white;
+    font-size:1.1rem;
+    
+
+   
+}
+header a:visited{
+    text-decoration:none;
+    color:white;
+    font-size:1.1rem;
+  
+}
+header a:hover
+{
+    text-decoration:none;
+    background-color:white;
+    color:dodgerblue;
+    font-size:1.1rem;
+}
+.nav
+{
+position:absolute;
+top:45px;
+left:950px;
+right:0px;
+height:48px;
+}
+
+.grid-container
+{
+    display:grid;
+grid-template-columns: 60% 40%;
+margin:10px;
+}
+.jobDes
+{
+    grid-column:1/2;
+    padding:10px;
+    background-color: white;
+    box-shadow: 3px 3px 3px grey;
+    margin:20px;
+   
+    
+}
+.apply{
+    grid-column:2/3;
+}
+.down
+{
+    display:flex;
+    flex-wap:wrap;
+    justify-content:space-around;
+    align-items:space-around;
+
+}
+.grid-container img{
+    width:150px;
+    height:130px;
+    float:left;
+}
+pre{
+    color:grey;
+    font-size:20px;
+    display:block;
+}
+body{
+    background-color: rgb(250, 245, 245);
+}
+#sal,#type,#Applicants,#vacancies
+{
+    font-size:15px;
+    background-color:rgb(150, 243, 153);
+    border-style:solid;
+    border-color:rgb(150, 243, 153);
+    border-width:3px;
+    border-radius: 15px;
+    padding:5px;
+    width:100px;
+    text-align:center;
+    margin:10px;
+    height:max-content;
+}
+#type
+{
+    background-color:rgb(249, 240, 174);
+    border-color:rgb(249, 240, 174);
+}
+#Applicants
+{
+    background-color: aqua;
+    border-color: aqua;
+}
+#vacancies
+{
+    background-color: rgb(217, 161, 161);
+    border-color: rgb(217, 161, 161);
+}
+.apply input,textarea,button{
+    display:block;
+    margin:15px;
+    border-radius:5px;
+    
+}
+button{
+    font-size:16px;
+    background-color:rgb(215, 205, 205);
+
+}
+.apply{
+   margin:20px;
+   background-color: white;
+   padding:20px;
+   border:5px outset rgb(215, 205, 205);
+   border-radius:15px;
+   box-shadow: 3px 3px 3px grey;
+   color:rgb(48, 98, 114);
+}
